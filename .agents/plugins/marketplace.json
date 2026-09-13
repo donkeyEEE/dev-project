@@ -1,0 +1,32 @@
+{
+  "name": "dev-project-release",
+  "interface": {
+    "displayName": "Dev Project Stable Plugins"
+  },
+  "plugins": [
+    {
+      "name": "dev-engineering",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-engineering"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "dev-productivity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dev-productivity"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
